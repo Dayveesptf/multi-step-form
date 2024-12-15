@@ -1,0 +1,210 @@
+.fourth-step-container {
+    width: 70%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+.fourth-step-side-bar {
+   width: 38%;
+   background: url('../../assets/bg-sidebar-desktop.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   height: 98%;
+   gap: 5%;
+   border-radius: 20px;
+}
+.fourth-content-container {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.fourth-number-container {
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 7%;
+}
+.fourth-number-container h1 {
+    font-size: 20px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin-top: 20%;
+}
+.fourth-progress-write-up {
+    width: 70%;
+    margin-left: 10%;
+}
+.fourth-progress-write-up h5 {
+    color: rgb(152, 152, 152);
+    font-size: 11px;
+    font-family: "Raleway", sans-serif;
+}
+.fourth-progress-write-up h1 {
+    font-size: 15px;
+    margin-top: -4%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.fourth-step-writeup {
+    width: 50%;
+    margin-left: 5%;
+    display: block;
+}
+.fourth-step-writeup h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(50, 50, 96);
+    font-weight: 100;
+}
+.fourth-step-writeup h5 {
+    font-family: "Raleway", sans-serif;
+    color: gray;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: -2%;
+}
+.summary-container {
+    width: 100%;
+    display: block;
+}
+.box-2:nth-child(3), .box-2:nth-child(4) {
+    margin-top: -10%;
+}
+.box-1 {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 1px 2px 10px 2px rgb(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.box-1 h3 {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(65, 65, 84);
+    width: 80%;
+    align-self: center;
+    font-weight: 1000;
+}
+.box-1 h6 {
+    font-size: 17px;
+    width: 20%;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+    color: rgb(68, 106, 195);
+    font-weight: 100;
+}
+.box-2 {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.box-2 h3 {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    color: gray;
+    align-self: center;
+    font-weight: 300;
+}
+.box-2 h6 {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(68, 106, 195);
+    font-weight: 100;
+}
+.total-container {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+}
+.total-container h3 {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    color: gray;
+    align-self: center;
+    font-weight: 300;
+}
+.total-container h6 {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(68, 106, 195);
+}
+.fourth-button-set {
+    width: 100%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fourth-button-set .button2 {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(0, 0, 95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    color: white;
+  }
+  .fourth-button-set .button1 {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 0, 75);
+    background-color: transparent;
+  }
+  .button1 a {
+    text-decoration: none;
+    color: rgb(3, 0, 75);
+  }
+  .button2 a {
+    text-decoration: none;
+    color: white;
+  }
+  @media (max-width: 767px) {
+    .fourth-step-container {
+        width: 96%;
+        margin-left: 2%;
+    }
+    .fourth-progress-write-up h1{
+        font-size: 12px;
+    }
+    .fourth-step-writeup h1 {
+        font-size: 30px;
+        padding-top: 5%;
+    }
+    .fourth-step-writeup h5 {
+        font-size: 15px;
+    }
+    .fourth-button-set .button2 {
+      width: 38%;
+    }
+    .total-container h6 {
+        font-size: 16px;
+    }
+    .box-1 h3 {
+        font-size: 20px;
+    }
+  }

@@ -1,0 +1,305 @@
+.second-step-container {
+    width: 70%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+.second-step-side-bar {
+   width: 38%;
+   background: url('../../assets/bg-sidebar-desktop.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   height: 98%;
+   gap: 5%;
+   border-radius: 20px;
+}
+.second-content-container {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.second-number-container {
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 7%;
+}
+.second-number-container h1 {
+    font-size: 20px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin-top: 20%;
+}
+.second-progress-write-up {
+    width: 70%;
+    margin-left: 10%;
+}
+.second-progress-write-up h5 {
+    color: rgb(152, 152, 152);
+    font-size: 11px;
+    font-family: "Raleway", sans-serif;
+}
+.second-progress-write-up h1 {
+    font-size: 15px;
+    margin-top: -4%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.second-step-details-container {
+    width: 50%;
+    margin-left: 5%;
+    display: block;
+}
+.second-step-details-container h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(50, 50, 96);
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.second-step-details-container h5 {
+    font-family: "Raleway", sans-serif;
+    color: gray;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: -2%;
+}
+.sub-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.arcade, .advanced, .pro {
+    width: 27%;
+    border: 1px solid rgb(217, 217, 217);
+    padding-top: 5%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+.sub-container > div.selected {
+    border-color: blue;
+}
+.arcade h4, .advanced h4, .pro h4 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 40%;
+    font-size: 18px;
+    color: rgb(50, 50, 96);
+}
+.arcade p, .advanced p, .pro p {
+    font-family: "Raleway", sans-serif;
+    margin-top: -10%;
+    font-size: 14px;
+    color: rgb(50, 50, 96);
+}
+/* Parent container for the toggle */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-top: 8%;
+  }
+  
+  /* Toggle labels */
+  .toggle-container span {
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .toggle-container span.active {
+    color: rgb(50, 50, 96);
+  }
+  
+  /* Toggle slider background */
+  .toggle-slider {
+    width: 40px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Slider circle */
+  .slider-circle {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider-circle.left {
+    left: 2px;
+  }
+  
+  .slider-circle.right {
+    left: 22px;
+  }
+  .second-button-set {
+    width: 100%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-button-set .button2 {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(0, 0, 95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10%;
+  }
+  .second-button-set .button1 {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 0, 75);
+    background-color: transparent;
+  }
+  .button1 a {
+    text-decoration: none;
+    color: rgb(3, 0, 75);
+  }
+  @media (max-width: 768px) {
+    .second-step-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .second-container h1 {
+        font-size: 17px;
+        width: 30px;
+        height: 30px;
+        align-content: center;
+        text-align: center;
+        margin-left: 4px;
+        margin-top: 5px;
+    }
+    .second-progress-write-up h1{
+        font-size: 13px;
+    }
+    .second-step-details-container h1{
+        font-size: 27px;
+        margin-top: 15%;
+    }
+    .second-step-details-container h5 {
+        font-size: 14px;
+    }
+    .arcade, .advanced, .pro {
+      width: 29%;
+    }
+    .arcade h4, .advanced h4, .pro h4 {
+      font-size: 15px;
+    }
+    .toggle-container {
+      margin-top: 15%;
+    }
+    .second-button-set .button2 {
+      width: 38%;
+    }
+    @media (max-width: 470px) {
+        .second-step-container {
+            margin-top: 0;
+            width: 100%;
+            margin-left: 0;
+            display: block;
+            border-radius: 0%;
+            padding: 0;
+            height: 750px;
+        }
+        .second-step-side-bar {
+            padding: 0;
+            margin: 0;
+            border-radius: 0;
+            flex-direction: row;
+            width: 100%;
+            height: 150px;
+            align-content: center;
+            display: flex;
+            padding-bottom: 15%;
+            gap: 0px;
+        }
+        .second-content-container {
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .second-number-container {
+            align-items: center;
+            align-self: center;
+            justify-content: space-between;
+            margin-left: 25%;
+        }
+        .second-progress-write-up {
+            display: none;
+        }
+        .second-step-details-container {
+            width: 80%;
+            padding-left: 4%;
+            padding-right: 4%;
+            margin-left: 6%;
+            margin-top: -15%;
+            padding-top: 1%;
+            padding-bottom: 20%;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 1px 2px 10px 2px rgb(0, 0, 0, 0.5);
+        }
+        .sub-container {
+          width: 100%;
+          margin-left: 0;
+        }
+        .arcade, .advanced, .pro {
+          width: 29%;
+        }
+        .arcade h4, .advanced h4, .pro h4 {
+          font-size: 15px;
+        }
+        .second-step-details-container h1 {
+            margin-top: 20%;
+        }
+        .second-button-set {
+          width: 100%;
+        }
+        .second-button-set .button1 {
+          margin-left: 0;
+        }
+        .second-button-set .button2 {
+          margin-right: 0%;
+          width: 36%;
+        }
+        .toggle-container {
+          margin-top: 15%;
+        }
+    }
+  }
